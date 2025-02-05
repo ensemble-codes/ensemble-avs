@@ -1,4 +1,4 @@
-# Simple Price Oracle AVS Example
+Ensemble AVS Example
 
 This repository demonstrates how to implement a simple price oracle AVS using the Othentic Stack.
 
