@@ -6,12 +6,15 @@ This repository demonstrates how to implement a simple price oracle AVS using th
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Project Structure](#project-structure)
-3. [Architecture](#usage)
-4. [Prerequisites](#prerequisites)
-5. [Installation](#installation)
-6. [Usage](#usage)
+- [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+  - [Features](#features)
+- [Project Structure](#project-structure)
+- [Architecture](#architecture)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Next](#next)
 
 ---
 
@@ -39,7 +42,7 @@ The Simple Price Oracle AVS Example demonstrates how to deploy a minimal AVS usi
 
 ## Architecture
 
-![Price oracle sample](https://github.com/user-attachments/assets/03d544eb-d9c3-44a7-9712-531220c94f7e)
+![Price oracle sample](./diagram.png)
 
 The Performer node executes tasks using the Task Execution Service and sends the results to the p2p network.
 

@@ -8,8 +8,13 @@ const router = Router()
 
 router.post("/validate", async (req, res) => {
     var proofOfTask = req.body.proofOfTask;
+    console.log('body.proofOfTask')
+    console.log(req.body)
     console.log(`Validate task: proof of task: ${proofOfTask}`);
     try {
+        console.log('body.proofOfTask')
+        console.log(req.body.proofOfTask)
+        const { proofOfTask } = req.body;
         const result = await validatorService.validate(proofOfTask);
         console.log('Vote:', result ? 'Approve' : 'Not Approved');
         return res.status(200).send(new CustomResponse(result));
