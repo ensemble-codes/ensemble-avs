@@ -54,7 +54,7 @@ async function publishJSONToIpfs(data) {
     proofOfTask = response.IpfsHash;
     console.log(`proofOfTask: ${proofOfTask}`);
   }
-  catch (error) {  
+  catch (error) {
     console.error("Error making API request to pinataSDK:", error);
   }
   return proofOfTask;

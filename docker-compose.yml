@@ -93,6 +93,7 @@ services:
     environment:
       - OTHENTIC_CLIENT_RPC_ADDRESS=http://10.8.0.69:8545
       - PRIVATE_KEY=${PRIVATE_KEY_PERFORMER}
+      - TWITTER_APP_USER_TOKEN=${TWITTER_APP_USER_TOKEN}
     env_file:
       - .env
     ports:
@@ -113,7 +114,6 @@ services:
     networks:
       p2p:
         ipv4_address: 10.8.0.102
-  
   grafana:
     image: grafana/grafana:latest
     container_name: grafana
