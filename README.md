@@ -39,7 +39,7 @@ The Simple Price Oracle AVS Example demonstrates how to deploy a minimal AVS usi
 
 ## Architecture
 
-![Price oracle sample](https://github.com/user-attachments/assets/03d544eb-d9c3-44a7-9712-531220c94f7e)
+![Price oracle sample]([https://github.com/user-attachments/assets/03d544eb-d9c3-44a7-9712-531220c94f7e](https://excalidraw.com/#json=hzODOtXfKwranqVZomG5P,6sGW9PMGTgeA0jbr85J7lQ)
 
 The Performer node executes tasks using the Task Execution Service and sends the results to the p2p network.
 
