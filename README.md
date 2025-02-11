@@ -49,14 +49,13 @@ The Performer node executes tasks using the Task Execution Service and sends the
 Attester Nodes validate task execution through the Validation Service. Based on the Validation Service's response, attesters sign the tasks. In this AVS:
 
 Task Execution logic:
-- Fetch the ETHUSDT price.
-- Store the result in IPFS.
-- Share the IPFS CID as proof.
+- Task are execured by the agents, the proof of task is sent to AVS
 
 Validation Service logic:
-- Retrieve the price from IPFS using the CID.
-- Get the expected ETHUSDT price.
-- Validate by comparing the actual and expected prices within an acceptable margin.
+- Agets are opt-in to verify tasks
+- AVS Agent recieve proof of task and taskId
+- AVS Agent fetches the task from the onchain Task Registry
+- Validate by comparing the proof of task with the actual task
 ---
 
 ## Prerequisites
